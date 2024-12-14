@@ -25,3 +25,21 @@ This project is a simple React Native app that implements a **Login** and **Sign
    ```bash
    git clone 'https://github.com/Ankitha2130/Better-Assignment'
    cd bettersoftwareapp
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Start the Metro bundler:
+   ```bash
+   npx react-native start
+
+4. Run the app:
+   For Android 
+   ```bash
+   npx react-native run-android
+
+   For iOS
+   ```bash
+   npx react-native run-ios
+
