@@ -38,8 +38,25 @@ This project is a simple React Native app that implements a **Login** and **Sign
    For Android 
    ```bash
    npx react-native run-android
-
+   ```
    For iOS
    ```bash
    npx react-native run-ios
+
+## Design Choices
+
+### Form Handling
+- Used **Formik** for handling forms due to its simple integration with React Native components.
+- Added field-level validation using **Yup** for precise and reusable validation logic.
+
+### State Management
+- Implemented local state management with React's **useState** for dynamic UI updates (e.g., password strength).
+- Used **AsyncStorage** for persisting the "Remember Me" state.
+
+### Navigation
+- Used **React Navigation** for screen transitions between Login and Signup.
+
+### UI Components
+- Developed custom components (`CustomInput` and `CustomButton`) for reusability and cleaner code.
+- Styled with React Native's **StyleSheet** for platform-specific performance.
 
