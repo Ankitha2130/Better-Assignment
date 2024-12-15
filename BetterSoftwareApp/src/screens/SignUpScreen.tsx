@@ -34,7 +34,7 @@ const SignUpScreen = () => {
   });
 
   const handleSignUp = (values: any) => {
-    window.alert('Sign Up Successful');
+    Alert.alert('Sign Up Successful');
     navigation.navigate('Login'); // Navigate to Login after successful sign up
   };
 
