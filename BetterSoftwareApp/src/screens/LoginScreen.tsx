@@ -25,7 +25,7 @@ const LoginScreen = () => {
     if (rememberMe) await AsyncStorage.setItem('rememberedEmail', values.email);
     else await AsyncStorage.removeItem('rememberedEmail');
     // Display success message
-    window.alert('Login Successful!');
+    Alert.alert('Login Successful!');
   };
 
   const validationSchema = Yup.object().shape({
